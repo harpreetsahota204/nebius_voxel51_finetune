@@ -1,0 +1,17 @@
+[project]
+name = "nebius-voxel51-finetune"
+version = "0.1.0"
+description = "Fine-tune a YOLO segmentation model on Nebius, starting from a FiftyOne dataset"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "fiftyone",
+    "huggingface_hub",
+    "ultralytics",
+    "boto3",
+    "pyyaml",
+    "jupyterlab",
+]
+
+[tool.uv]
+package = false
